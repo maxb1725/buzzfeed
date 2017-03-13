@@ -26,7 +26,7 @@ view: dummy_attrition {
   }
 
   dimension: month {
-    type: string
+    type:date_month
     sql: ${TABLE}.Month ;;
   }
 }
